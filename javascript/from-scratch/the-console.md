@@ -7,10 +7,14 @@ Start out in the console of any web browser.
 - 2 + 2
 - 5 \* 5
 - let myFavoriteNumber = 7
-  > Press enter and it is stored in the memory
+
+> Press enter and it is stored in the memory
+
 - 10 + myFavoriteNumber
 - let myName = 'Jordy' or "jordy"
-  > Number, String info
+
+> Number, String info
+
 - 'Hello, my name is ' + myName + '.'
 - `Hello, my name is ${myName}`
 
