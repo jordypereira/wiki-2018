@@ -11,11 +11,13 @@
 - sit()
 - bark()
 
+The browser knows some functions
+
 - alert()
 - alert('Hello')
 
-> pass along a piece of data -> an argument
-> functions of the browser, or make your own functions
+> pass along a piece of data -> an argument  
+> Or make your own functions
 
 - greet()
 
@@ -23,14 +25,19 @@
 
 > How do you create your own function?
 
-- function greet() {
+```js
+function greet() {
   alert('Hello my name is Jordy.')
-  }
-- const greet = () => {
+}
+```
+
+```js
+const greet = () => {
   alert('hello')
-  }
-  To run the function we have to call it
-- greet()
+}
+```
+
+To run the function we have to call it `greet()`
 
 > We taught the browser a new trick - a new function
 
@@ -38,23 +45,32 @@
 
 - greet('Jane')
 - greet('John')
-- function greet(text) {
+
+```js
+function greet(text) {
   alert('Hello my name is ' + text + '.')
-  }
+}
+```
 
 > text, x, theName, ...
 
-- function greet(text, favColor) {
-  alert('Hello my name is ' + text + ' and my favorite color is ' + favColor + '.')
-  }
+```js
+function greet(text, favColor) {
+  alert(
+    'Hello my name is ' + text + ' and my favorite color is ' + favColor + '.',
+  )
+}
+```
 
 - greet('name', 'blue')
 
-> A function doesn't have to call alert, it can return
+> A function doesn't have to call alert, it can return a new value
 
-- function tripleMe(x) {
-  return 3 \* x
+```js
+  function tripleMe(x) {
+    return 3 \* x
   }
+```
 
-- let myFavoriteNumber = tripleMe(12)
-- alert(myFavoriteNumber)
+`let myFavoriteNumber = tripleMe(12)`  
+`alert(myFavoriteNumber)`
