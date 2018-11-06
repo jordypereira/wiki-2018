@@ -31,3 +31,5 @@ We can store our own variables im the memory. But the environment (The Browser) 
 - document.body.style.backgroundColor = 'lightblue'
 
 > label - variable
+
+[continue](./functions.md)
