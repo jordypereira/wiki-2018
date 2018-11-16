@@ -38,6 +38,16 @@ module.exports = {
           '/testing/resources',
         ],
       },
+      {
+        title: 'Docker',
+        collapsable: false,
+        children: ['/docker/setup', '/docker/webserver', '/docker/devilbox'],
+      },
+      {
+        title: 'LAMP',
+        collapsable: false,
+        children: ['/lamp/website'],
+      },
     ],
     sidebarDepth: 2,
   },
