@@ -10,6 +10,6 @@ module.exports = {
       { text: 'My Website', link: 'https://jordypereira.be/' },
     ],
     displayAllHeaders: true,
-    sidebar: ['/', '/vuepress/'],
+    sidebar: ['/', '/vuepress/', '/typescript/', '/javascript/', '/articles/'],
   },
 }
