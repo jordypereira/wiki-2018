@@ -50,3 +50,13 @@ $navbarHeight = 3.6rem
 $sidebarWidth = 20rem
 $contentWidth = 740px
 ```
+
+- the .htaccess
+
+```htaccess
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+```

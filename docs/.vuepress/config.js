@@ -10,7 +10,7 @@ module.exports = {
       { text: 'My Website', link: 'https://jordypereira.be/' },
     ],
     sidebar: [
-      '/',
+      // '/',
       '/vuepress/',
       'typescript/basics/',
       {
@@ -19,6 +19,22 @@ module.exports = {
         children: [
           '/javascript/from-scratch/the-console',
           '/javascript/from-scratch/functions',
+        ],
+      },
+      {
+        title: 'Articles',
+        collapsable: false,
+        children: ['/articles/Neuro-Web-Design-What-Makes-Them-Click/'],
+      },
+      {
+        title: 'Testing',
+        collapsable: false,
+        children: [
+          '/testing/',
+          '/testing/what-to-test',
+          '/testing/vue/unit-tests-example',
+          '/testing/vue/factory-function',
+          '/testing/vue/vuex',
         ],
       },
     ],
