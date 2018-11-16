@@ -35,6 +35,7 @@ module.exports = {
           '/testing/vue/unit-tests-example',
           '/testing/vue/factory-function',
           '/testing/vue/vuex',
+          '/testing/resources',
         ],
       },
     ],

@@ -129,9 +129,9 @@ it('passes a binded user prop to user profile component', () => {
 Here we can compare the user of our wrapper to the userProfile.
 To make the test pass, we need to bind the user to userProfile and make it receive the prop.
 
-# Episode 3 / 6
+## Episode 3 / 6
 
-## Test if it receives the store
+### Test if it receives the store
 
 Now to use a store in our tests we have to inject it the same way as we do in any vue instance. We create a local vue instance and inject vuex into that.
 
