@@ -1,6 +1,4 @@
-# Javascript from scratch
-
-## The Console - 17 min.
+# The Console - 17 min.
 
 Start out in the console of any web browser.
 

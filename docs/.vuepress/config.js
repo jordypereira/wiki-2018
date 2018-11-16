@@ -9,7 +9,19 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'My Website', link: 'https://jordypereira.be/' },
     ],
-    displayAllHeaders: true,
-    sidebar: ['/', '/vuepress/', '/typescript/', '/javascript/', '/articles/'],
+    sidebar: [
+      '/',
+      '/vuepress/',
+      'typescript/basics/',
+      {
+        title: 'Javascript',
+        collapsable: false,
+        children: [
+          '/javascript/from-scratch/the-console',
+          '/javascript/from-scratch/functions',
+        ],
+      },
+    ],
+    sidebarDepth: 2,
   },
 }
