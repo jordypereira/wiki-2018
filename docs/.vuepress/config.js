@@ -3,7 +3,7 @@ module.exports = {
   description: 'Here I will store everything I know.',
   themeConfig: {
     lastUpdated: 'Last Updated',
-    repo: 'perjor/wiki',
+    repo: 'perjor',
     docsDir: 'docs',
     nav: [
       { text: 'Home', link: '/' },
