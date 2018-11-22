@@ -48,6 +48,7 @@ module.exports = {
         collapsable: false,
         children: ['/lamp/website'],
       },
+      '/vuetify/',
     ],
     sidebarDepth: 2,
   },
