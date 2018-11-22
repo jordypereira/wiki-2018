@@ -49,6 +49,15 @@ module.exports = {
         children: ['/lamp/website'],
       },
       '/vuetify/',
+      {
+        title: 'Resources',
+        collapsable: false,
+        children: [
+          '/resources/articles',
+          '/resources/typescript',
+          '/resources/UI',
+        ],
+      },
     ],
     sidebarDepth: 2,
   },
