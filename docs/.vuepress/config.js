@@ -50,12 +50,20 @@ module.exports = {
       },
       '/vuetify/',
       {
+        title: 'Project Management',
+        collapsable: false,
+        children: [
+          '/project-management/elevator-pitch',
+        ],
+      },
+      {
         title: 'Resources',
         collapsable: false,
         children: [
           '/resources/articles',
           '/resources/typescript',
           '/resources/UI',
+          '/resources/project-management',
         ],
       },
     ],
