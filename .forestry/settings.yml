@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: docs
   label: Articles
@@ -11,8 +13,6 @@ sections:
   match: "**/*"
   templates:
   - article
-- type: heading
-  label: Content
 - type: document
   path: docs
   label: Edit Project Management
