@@ -1,6 +1,20 @@
 module.exports = {
   title: 'Jordy Pereira Wiki',
   description: 'Here I will store everything I know.',
+  head: [
+    ['script', { href: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+    ['script', {}, `
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+    `]
+  ],
   themeConfig: {
     lastUpdated: 'Last Updated',
     repo: 'perjor',
