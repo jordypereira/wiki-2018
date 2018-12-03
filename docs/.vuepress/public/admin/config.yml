@@ -18,3 +18,21 @@ collections:
       # - {label: "Featured Image", name: "thumbnail", widget: "image"}
       # - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "project-management"
+    label: "Project Management"
+    folder: "docs/project-management"
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}  
+  - name: "articles"
+    label: "Articles"
+    folder: "docs/articles"
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
