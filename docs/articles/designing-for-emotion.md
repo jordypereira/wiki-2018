@@ -34,7 +34,7 @@ We reconginize things that aren't right.
 Use contrast to make the important part stand out.
 
 
-## Don't put too much on a page
+### Don't put too much on a page
 
 When it's simple we have to think less. The more alternatives there are, the longer we need to make an decision.  
 
