@@ -24,7 +24,7 @@ module.exports = {
       {
         title: 'Articles',
         collapsable: false,
-        children: ['/articles/Neuro-Web-Design-What-Makes-Them-Click/'],
+        children: ['/articles/Neuro-Web-Design-What-Makes-Them-Click/', '/articles/designing-for-emotion/'],
       },
       {
         title: 'Testing',
