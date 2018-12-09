@@ -38,7 +38,7 @@ Dan voer je je cocktails in, de hoeveelheid van elke drank dat hierin gaat en de
 
 Eens je wat basis data ingevuld hebt, maak je een feestje aan. Hier vul je aan hoeveel mensen je verwacht en hoeveel consumpties of geld elk persoon gaat spenderen.
 
-Nu krijg je meteen een overzicht met hoeveel je moet aankopen, hoeveel het kost en hoeveel je verdient als je ale je drank verkoopt. Je kan instellen om het als pdf te exporteren en hoeveel verschillende use cases je wilt testen. Zo kan je bijvoorbeeld instellen dat je 2 cocktails verkoopt en verwacht dat elk persoon 3 cocktails gaat drinken. Je weet niet zeker hoeveel personen er gaan komen omdat je er nooit aan gedacht heb zulke data bij te houden. Je geeft dan maar 150 in.
+Nu krijg je meteen een overzicht met hoeveel je moet aankopen, hoeveel het kost en hoeveel je verdient als je al je drank verkoopt. Je kan instellen om het als pdf te exporteren en hoeveel verschillende use cases je wilt testen. Zo kan je bijvoorbeeld instellen dat je 2 cocktails verkoopt en verwacht dat elk persoon 3 cocktails gaat drinken. Je weet niet zeker hoeveel personen er gaan komen omdat je er nooit aan gedacht heb zulke data bij te houden. Je geeft dan maar 150 in.
 
 De app genereert een begroting op basis van 100, 150 en 200 personen. Je haalt break-even op 50 personen of 150 cocktails.
 
