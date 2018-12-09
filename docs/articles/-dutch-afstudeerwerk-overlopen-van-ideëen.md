@@ -20,10 +20,10 @@ date: 2018-12-09T15:14:35.549Z
 
 ## ideëen
 - Alle data visualiseren van Peter zijn werk.
-- Recepten App met de optie om producten te vergelijken van lokale winkels via web scraping.
-- Begroting App voor feestjes
+- [Recepten App met de optie om producten te vergelijken van lokale winkels via web scraping.](#recepten-app)
+- [Begroting App voor feestjes](#begroting-app)
 - Catvent Calendar
-- Analyseer jouw cat op basis van emoties en lichaamsuitdrukkingen. Hierna krijg je feedback over de mogelijkheden dat je kat bedoelt. De app verzamelt informatie op basis van je kat en wordt telkens beter in het herkennen van de juiste emoties.
+- [Analyseer jouw cat op basis van emoties en lichaamsuitdrukkingen.](#catalyser)
 
 ### Begroting App
 Je wordt aangeduid als feest bij je lokale studentenclub. Er zijn al zoveel feestjes gegeven en er zou tal van informatie beschikbaar moeten zijn. Je hebt echter geen flauw idee hoe je best te werk gaat. Je voorganger is aan het werk en heeft amper tijd om je deftig te helpen. 
