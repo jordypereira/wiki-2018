@@ -41,6 +41,11 @@ module.exports = {
         children: ['/articles/'],
       },
       {
+        title: 'Linux',
+        collapsable: false,
+        children: ['/linux/'],
+      },
+      {
         title: 'Testing',
         collapsable: false,
         children: [
