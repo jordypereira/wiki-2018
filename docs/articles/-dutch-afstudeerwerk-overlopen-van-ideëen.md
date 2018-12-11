@@ -20,10 +20,10 @@ date: 2018-12-09T15:14:35.549Z
 
 ## ideëen
 - Alle data visualiseren van Peter zijn werk.
-- Recepten App met de optie om producten te vergelijken van lokale winkels via web scraping.
-- Begroting App voor feestjes
+- [Recepten App met de optie om producten te vergelijken van lokale winkels via web scraping.](#recepten-app)
+- [Begroting App voor feestjes](#begroting-app)
 - Catvent Calendar
-- Analyseer jouw cat op basis van emoties en lichaamsuitdrukkingen. Hierna krijg je feedback over de mogelijkheden dat je kat bedoelt. De app verzamelt informatie op basis van je kat en wordt telkens beter in het herkennen van de juiste emoties.
+- [Analyseer jouw cat op basis van emoties en lichaamsuitdrukkingen.](#catalyser)
 
 ### Begroting App
 Je wordt aangeduid als feest bij je lokale studentenclub. Er zijn al zoveel feestjes gegeven en er zou tal van informatie beschikbaar moeten zijn. Je hebt echter geen flauw idee hoe je best te werk gaat. Je voorganger is aan het werk en heeft amper tijd om je deftig te helpen. 
@@ -38,7 +38,7 @@ Dan voer je je cocktails in, de hoeveelheid van elke drank dat hierin gaat en de
 
 Eens je wat basis data ingevuld hebt, maak je een feestje aan. Hier vul je aan hoeveel mensen je verwacht en hoeveel consumpties of geld elk persoon gaat spenderen.
 
-Nu krijg je meteen een overzicht met hoeveel je moet aankopen, hoeveel het kost en hoeveel je verdient als je ale je drank verkoopt. Je kan instellen om het als pdf te exporteren en hoeveel verschillende use cases je wilt testen. Zo kan je bijvoorbeeld instellen dat je 2 cocktails verkoopt en verwacht dat elk persoon 3 cocktails gaat drinken. Je weet niet zeker hoeveel personen er gaan komen omdat je er nooit aan gedacht heb zulke data bij te houden. Je geeft dan maar 150 in.
+Nu krijg je meteen een overzicht met hoeveel je moet aankopen, hoeveel het kost en hoeveel je verdient als je al je drank verkoopt. Je kan instellen om het als pdf te exporteren en hoeveel verschillende use cases je wilt testen. Zo kan je bijvoorbeeld instellen dat je 2 cocktails verkoopt en verwacht dat elk persoon 3 cocktails gaat drinken. Je weet niet zeker hoeveel personen er gaan komen omdat je er nooit aan gedacht heb zulke data bij te houden. Je geeft dan maar 150 in.
 
 De app genereert een begroting op basis van 100, 150 en 200 personen. Je haalt break-even op 50 personen of 150 cocktails.
 
