@@ -184,3 +184,65 @@ Always append the '/' to the css link
 `npm i --save pug`  
 In app.js enter `app.set('view engine', 'pug')`  
 folder to find the views `app.set('views', 'views')`
+
+## Controllers
+Just export the middleware to the folder /controllers
+
+## Methods
+You can use javasc ript classes for this.
+
+```js
+const products = []
+
+module.exports = class Product {
+  constructor(title) {
+    this.title = title,
+  }
+
+  save() {
+    products.push(this)
+  }
+}
+```
+
+This will let you define a new product. calling save on the product will save it to the array.
+
+### Static functions
+Static functions are global functions defined in a class. They can be called without instantiating the class and are used to fetch for example all the instances of the model.
+
+```js
+static fetchAll() {
+  return products
+}
+```
+## Write data to JSON in the filestorage
+
+```js
+const fs = require('fs')
+const path = require('path')
+
+const productsPath = path.join(
+  path.dirname(process.mainModule.filename), 
+  'data', 
+  'products.json'
+)
+
+fs.readFile(productsPath, (err, data) => {
+  let products = []
+  if (!err) {
+    products = JSON.parse(data)
+  }
+  products.push(this)
+  fs.writeFile(productsPath, JSON.stringify(products), err => {
+  })
+})
+
+static fetchAll(cb) {
+  fs.readFile(productsPath, (err, data) => {
+    if (err) {
+      cb([])
+    }
+    cb(JSON.parse(data))
+  })
+}
+```
