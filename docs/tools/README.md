@@ -31,4 +31,13 @@ Prototyping can be uploaded from sketch and exported to CSS.
 ## User Flows
 
 ### Overflow.io
-XD in the browser.
+XD in the browser. Currently only for MacOS.
+
+## Experience Monitoring Tools
+
+### Fullstory
+https://www.fullstory.com/
+
+### Hotjar
+
+### 
