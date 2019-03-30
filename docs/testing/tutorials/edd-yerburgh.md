@@ -1,3 +1,9 @@
+---
+title: Edd Yerburgh - Unit testing Vue components
+tags: [Vue, Javascript, Testing]
+date: 2018-10-09
+---
+
 # Edd Yerburgh - Unit testing Vue components Why test, what to test, and how to test Vue components
 
 Edd Yerburgh is an experienced JavaScript developer and Vue core contributor. He is the main author of the official Vue test library and a prominent figure in the Vue testing community.

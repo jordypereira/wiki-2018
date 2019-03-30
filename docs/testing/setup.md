@@ -1,3 +1,9 @@
+---
+title: Setup Vue Testing
+tags: [Vue, Javascript, Testing]
+date: 2018-10-09
+---
+
 # Setup Vue Testing
 
 ## Set up Laravel to work with vue testing

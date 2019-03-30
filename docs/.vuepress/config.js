@@ -40,14 +40,9 @@ module.exports = {
         collapsable: true,
         children: [
           '/vue/nuxt-tailwind-scss',
-          '/vuepress/',
-          '/vuetify/',
+          '/vue/vuepress',
+          // '/vue/vuetify',
         ],
-      },
-      {
-        title: 'Linux',
-        collapsable: true,
-        children: ['/linux/'],
       },
       {
         title: 'Testing',
@@ -60,6 +55,11 @@ module.exports = {
           '/testing/vue/vuex',
           '/testing/resources',
         ],
+      },
+      {
+        title: 'Linux',
+        collapsable: true,
+        children: ['/linux/'],
       },
       {
         title: 'Docker',

@@ -1,3 +1,9 @@
+---
+title: What to test
+tags: [Vue, Javascript, Testing]
+date: 2018-10-09
+---
+
 # What to test
 
 Just passing a prop and checking if the output is right is actually not a good test to do.  

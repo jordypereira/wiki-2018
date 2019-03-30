@@ -7,8 +7,8 @@ date: 2018-12-11T11:33:42.428Z
 
 ## Grub customizer tool in Ubuntu
 
-- sudo add-apt-repository ppa:danielrichter2007/grub-customizer 
-- sudo apt-get update 
+- sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+- sudo apt-get update
 - sudo apt-get install grub-customizer
 
 ## How To Set Default Boot With Linux Terminal
@@ -16,8 +16,9 @@ date: 2018-12-11T11:33:42.428Z
 - sudo vim /etc/default/grub
 - Change GRUB_DEFAULT=0 to GRUB_DEFAULT=saved
 - sudo grub-set-default 3
+
 > Remember 3 is the entry number and the first entry is 0.
 
-
 ## When you're done
+
 - sudo update-grub

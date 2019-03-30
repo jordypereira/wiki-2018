@@ -1,6 +1,7 @@
 ---
 title: NUXT + Tailwind + SCSS
 tags: [Nuxt, SCSS, Tailwind]
+date: 2019-01-09
 ---
 
 # Nuxt + Tailwind + SCSS

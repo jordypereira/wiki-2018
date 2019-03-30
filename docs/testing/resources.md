@@ -1,3 +1,9 @@
+---
+title: Resources
+tags: [Vue, Javascript, Testing]
+date: 2018-10-09
+---
+
 # Testing Resources
 
 ## Docs

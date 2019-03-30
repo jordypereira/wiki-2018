@@ -1,3 +1,9 @@
+---
+title: Vuetify Setup
+tags: [Vue, Vuetify, UI]
+date: 2018-11-09
+---
+
 # Vuetify
 
 ## Setup

@@ -1,4 +1,10 @@
-# Vuepress
+---
+title: Vuepress Setup
+tags: [Vue, Vuepress, Docs]
+date: 2018-11-09
+---
+
+# Vuepress Setup
 
 - yarn add -D vuepress
 - mkdir docs

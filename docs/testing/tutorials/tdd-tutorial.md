@@ -1,3 +1,9 @@
+---
+title: TDD-Tutorial
+tags: [Vue, Javascript, Testing]
+date: 2018-10-09
+---
+
 # TDD-Tutorial
 
 ## Episode 1 / 6
