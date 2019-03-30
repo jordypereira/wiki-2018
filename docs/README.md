@@ -1,6 +1,7 @@
 ---
-home: true
-# heroImage: /hero.png
-actionText: Start reading →
-actionLink: /vuepress/
+home: false
 ---
+
+# Jordy Pereira wiki
+
+Here I store simple guides.

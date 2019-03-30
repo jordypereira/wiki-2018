@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Jordy Pereira Wiki',
   description: 'Here I will store everything I know.',
+  base: '/',
   head: [
     ['script', { href: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
     ['script', {}, `
@@ -24,30 +25,33 @@ module.exports = {
       { text: 'My Website', link: 'https://jordypereira.be/' },
     ],
     sidebar: [
-      // '/',
-      '/vuepress/',
-      'typescript/basics/',
       {
         title: 'Javascript',
-        collapsable: false,
+        collapsable: true,
         children: [
+          '/javascript/node-js',
           '/javascript/from-scratch/the-console',
           '/javascript/from-scratch/functions',
+          '/typescript/basics/',
         ],
       },
       {
-        title: 'Articles',
-        collapsable: false,
-        children: ['/articles/'],
+        title: 'Vue',
+        collapsable: true,
+        children: [
+          '/vue/nuxt-tailwind-scss',
+          '/vuepress/',
+          '/vuetify/',
+        ],
       },
       {
         title: 'Linux',
-        collapsable: false,
+        collapsable: true,
         children: ['/linux/'],
       },
       {
         title: 'Testing',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/testing/',
           '/testing/what-to-test',
@@ -59,25 +63,24 @@ module.exports = {
       },
       {
         title: 'Docker',
-        collapsable: false,
+        collapsable: true,
         children: ['/docker/setup', '/docker/webserver', '/docker/devilbox'],
       },
       {
         title: 'LAMP',
-        collapsable: false,
+        collapsable: true,
         children: ['/lamp/website'],
       },
-      '/vuetify/',
       {
         title: 'Project Management',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/project-management/elevator-pitch',
         ],
       },
       {
         title: 'Resources',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/resources/articles',
           '/resources/typescript',
@@ -86,6 +89,6 @@ module.exports = {
         ],
       },
     ],
-    sidebarDepth: 2,
+    sidebarDepth: 1,
   },
 }
