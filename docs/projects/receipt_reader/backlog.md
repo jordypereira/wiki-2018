@@ -60,3 +60,10 @@ Then I need to be able to split the receipt into zones. Not sure how I would go 
 Reading text from a zone shouldn't be too difficult.
 
 To gain some confidence I want to fresh up my knowledge of tensorflow.js and ml5.js.
+
+## Privacy issues
+
+Now, Machine Learning goes hand in hand with Data collection. In order to improve our model we need endless amounts of data.  
+In the past the data had to go to the cloud computer to get added to the model. But with the javascript adaptation of tensorflow, this can happen client-side.
+
+So any user that does not wish to have his data exposed in any way, can choose to not send their data to the cloud and still benefit from a model that keeps getting trained.
