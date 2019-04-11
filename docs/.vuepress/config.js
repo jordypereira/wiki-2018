@@ -80,7 +80,7 @@ module.exports = {
       {
         title: 'Projects',
         collapsable: true,
-        children: ['/projects/receipt_reader/backlog'],
+        children: ['/projects/receipt_reader/backlog', '/projects/catalyser'],
       },
       {
         title: 'Resources',

@@ -2,7 +2,7 @@
 home: false
 ---
 
-# Jordy Pereira wiki
+# Jordy Pereira Wiki
 
 Here I store simple guides.
 
