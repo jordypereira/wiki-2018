@@ -6,7 +6,6 @@ home: false
 
 Here I store simple guides.
 
-
 ## Javascript
 
 <Overview page="javascript" />
@@ -22,3 +21,7 @@ Here I store simple guides.
 ## Linux
 
 <Overview page="linux" />
+
+## My Projects
+
+<Overview page="projects" />

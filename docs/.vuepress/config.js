@@ -48,7 +48,6 @@ module.exports = {
         title: 'Testing',
         collapsable: true,
         children: [
-          '/testing/',
           '/testing/what-to-test',
           '/testing/vue/unit-tests-example',
           '/testing/vue/factory-function',
@@ -59,7 +58,7 @@ module.exports = {
       {
         title: 'Linux',
         collapsable: true,
-        children: ['/linux/'],
+        children: ['/linux/change-grub-boot-loader'],
       },
       {
         title: 'Docker',
@@ -77,6 +76,11 @@ module.exports = {
         children: [
           '/project-management/elevator-pitch',
         ],
+      },
+      {
+        title: 'Projects',
+        collapsable: true,
+        children: ['/projects/receipt_reader/backlog'],
       },
       {
         title: 'Resources',
